@@ -1,0 +1,23 @@
+﻿Сборка начата 26.09.2021 12:13:38.
+Уровень детализации журнала: Normal.     1>Проект "D:\study\3course\OS\ThirdLab\OS03_02_2\OS03_02_2\OS03_02_2.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Создание каталога "D:\study\3course\OS\ThirdLab\OS03_02_2\Debug\".
+         Создание каталога "Debug\OS03_02_2.tlog\".
+       InitializeBuildStatus:
+         Создание "Debug\OS03_02_2.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /Gd /TP /analyze- /FC /errorReport:prompt OS03_02_2.cpp
+         OS03_02_2.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"D:\study\3course\OS\ThirdLab\OS03_02_2\Debug\OS03_02_2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"D:\study\3course\OS\ThirdLab\OS03_02_2\Debug\OS03_02_2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\study\3course\OS\ThirdLab\OS03_02_2\Debug\OS03_02_2.lib" /MACHINE:X86 Debug\OS03_02_2.obj
+         OS03_02_2.vcxproj -> D:\study\3course\OS\ThirdLab\OS03_02_2\Debug\OS03_02_2.exe
+       FinalizeBuildStatus:
+         Файл "Debug\OS03_02_2.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\OS03_02_2.tlog\OS03_02_2.lastbuildstate".
+     1>Сборка проекта "D:\study\3course\OS\ThirdLab\OS03_02_2\OS03_02_2\OS03_02_2.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:02.28
