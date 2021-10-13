@@ -46,15 +46,15 @@ int main()
 		cout << "TID(Parent): " << tid << endl;
 		switch (i)
 		{
-		case 20:
+		case 19:
 			SuspendThread(hChild1);
 			cout << "---------------------os04_02_T1 SUSPEND---------------------------" << endl;
 			break;
-		case 40:
+		case 39:
 			SuspendThread(hChild2);
 			cout << "---------------------os04_02_T2 SUSPEND---------------------------" << endl;
 			break;
-		case 60:
+		case 59:
 			ResumeThread(hChild1);
 			cout << "---------------------os04_02_T1 RESUME---------------------------" << endl;
 			break;

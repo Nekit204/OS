@@ -56,7 +56,7 @@ int main()
 		Sleep(1000);
 		cout << "PID: " << pid << endl;
 		cout << "TID(Parent): " << tid << endl;
-		if (i == 30)
+		if (i == 29)
 		{
 			cout << "--------------------Parent sleep-------------------------\n";
 			Sleep(10000);

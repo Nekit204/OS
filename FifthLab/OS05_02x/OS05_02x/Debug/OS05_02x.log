@@ -1,0 +1,20 @@
+﻿Сборка начата 09.10.2021 13:51:32.
+Уровень детализации журнала: Normal.     1>Проект "D:\study\3course\OS\FifthLab\OS05_02x\OS05_02x\OS05_02x.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "Debug\OS05_02x.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /Gd /TP /analyze- /FC /errorReport:prompt OS05_02x.cpp
+         OS05_02x.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"D:\study\3course\OS\FifthLab\OS05_02x\Debug\OS05_02x.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"D:\study\3course\OS\FifthLab\OS05_02x\Debug\OS05_02x.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\study\3course\OS\FifthLab\OS05_02x\Debug\OS05_02x.lib" /MACHINE:X86 Debug\OS05_02x.obj
+         OS05_02x.vcxproj -> D:\study\3course\OS\FifthLab\OS05_02x\Debug\OS05_02x.exe
+       FinalizeBuildStatus:
+         Файл "Debug\OS05_02x.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\OS05_02x.tlog\OS05_02x.lastbuildstate".
+     1>Сборка проекта "D:\study\3course\OS\FifthLab\OS05_02x\OS05_02x\OS05_02x.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:03.41
