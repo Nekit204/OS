@@ -11,18 +11,20 @@ int main()
     HANDLE ht = GetCurrentThread();
     setlocale(LC_ALL, "Russian");
     DWORD icpu = -1;
+    icpu = SetThreadIdealProcessor(ht, MAXIMUM_PROCESSORS);
     for (int i = 1; i <= 1000000; i++)
     {
+       // cout << "Номер итерации - " << i << endl;
         if (i % 1000 == 0)
         {
-            Sleep(500);
+            Sleep(200);
             cout << "Номер итерации:  " << i << endl;
             cout << "PID: " << GetCurrentProcessId() << endl;
             cout << "TID: " << GetCurrentThreadId() << endl;
             printProcessPrty(hp);
             printThreadPrty(ht);
-            icpu = SetThreadIdealProcessor(ht, MAXIMUM_PROCESSORS);
-            cout << "Thread Ideal Processor: " << dec << icpu << "\n";
+            cout << "Thread Ideal Processor: " << icpu << "\n";
+            
         }
     }
 }

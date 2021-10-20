@@ -1,0 +1,42 @@
+﻿Сборка начата 19.10.2021 11:46:03.
+Уровень детализации журнала: Normal.     1>Проект "D:\study\3course\OS\FifthLab\OS05_02\OS05_02\OS05_02.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Обращение к "Debug\OS05_02.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /Gd /TP /analyze- /FC /errorReport:prompt OS05_02.cpp
+         OS05_02.cpp
+     1>D:\study\3course\OS\FifthLab\OS05_02\OS05_02\OS05_02.cpp(44,35): warning C4477: "sscanf_s": в строке форматирования "%d" требуется аргумент типа "int *", но вариативный аргумент "1" имеет тип "unsigned __int64 *"
+       D:\study\3course\OS\FifthLab\OS05_02\OS05_02\OS05_02.cpp(44,35): message : рекомендуется использовать "%lld" в строке форматирования
+       D:\study\3course\OS\FifthLab\OS05_02\OS05_02\OS05_02.cpp(44,35): message : рекомендуется использовать "%I64d" в строке форматирования
+     1>D:\study\3course\OS\FifthLab\OS05_02\OS05_02\OS05_02.cpp(45,49): warning C4244: аргумент: преобразование "unsigned __int64" в "DWORD_PTR", возможна потеря данных
+     1>D:\study\3course\OS\FifthLab\OS05_02\OS05_02\OS05_02.cpp(59,39): warning C4477: "sscanf_s": в строке форматирования "%d" требуется аргумент типа "int *", но вариативный аргумент "1" имеет тип "unsigned __int64 *"
+       D:\study\3course\OS\FifthLab\OS05_02\OS05_02\OS05_02.cpp(59,39): message : рекомендуется использовать "%lld" в строке форматирования
+       D:\study\3course\OS\FifthLab\OS05_02\OS05_02\OS05_02.cpp(59,39): message : рекомендуется использовать "%I64d" в строке форматирования
+     1>D:\study\3course\OS\FifthLab\OS05_02\OS05_02\OS05_02.cpp(60,120): warning C4244: аргумент: преобразование "unsigned __int64" в "int", возможна потеря данных
+     1>D:\study\3course\OS\FifthLab\OS05_02\OS05_02\OS05_02.cpp(65,43): warning C4477: "sscanf_s": в строке форматирования "%d" требуется аргумент типа "int *", но вариативный аргумент "1" имеет тип "unsigned __int64 *"
+       D:\study\3course\OS\FifthLab\OS05_02\OS05_02\OS05_02.cpp(65,43): message : рекомендуется использовать "%lld" в строке форматирования
+       D:\study\3course\OS\FifthLab\OS05_02\OS05_02\OS05_02.cpp(65,43): message : рекомендуется использовать "%I64d" в строке форматирования
+     1>D:\study\3course\OS\FifthLab\OS05_02\OS05_02\OS05_02.cpp(68,124): warning C4244: аргумент: преобразование "unsigned __int64" в "int", возможна потеря данных
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"D:\study\3course\OS\FifthLab\OS05_02\Debug\OS05_02.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"D:\study\3course\OS\FifthLab\OS05_02\Debug\OS05_02.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\study\3course\OS\FifthLab\OS05_02\Debug\OS05_02.lib" /MACHINE:X86 Debug\OS05_02.obj
+         OS05_02.vcxproj -> D:\study\3course\OS\FifthLab\OS05_02\Debug\OS05_02.exe
+       FinalizeBuildStatus:
+         Файл "Debug\OS05_02.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\OS05_02.tlog\OS05_02.lastbuildstate".
+     1>Сборка проекта "D:\study\3course\OS\FifthLab\OS05_02\OS05_02\OS05_02.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\study\3course\OS\FifthLab\OS05_02\OS05_02\OS05_02.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\study\3course\OS\FifthLab\OS05_02\OS05_02\OS05_02.cpp(44,35): warning C4477: "sscanf_s": в строке форматирования "%d" требуется аргумент типа "int *", но вариативный аргумент "1" имеет тип "unsigned __int64 *"
+         D:\study\3course\OS\FifthLab\OS05_02\OS05_02\OS05_02.cpp(45,49): warning C4244: аргумент: преобразование "unsigned __int64" в "DWORD_PTR", возможна потеря данных
+         D:\study\3course\OS\FifthLab\OS05_02\OS05_02\OS05_02.cpp(59,39): warning C4477: "sscanf_s": в строке форматирования "%d" требуется аргумент типа "int *", но вариативный аргумент "1" имеет тип "unsigned __int64 *"
+         D:\study\3course\OS\FifthLab\OS05_02\OS05_02\OS05_02.cpp(60,120): warning C4244: аргумент: преобразование "unsigned __int64" в "int", возможна потеря данных
+         D:\study\3course\OS\FifthLab\OS05_02\OS05_02\OS05_02.cpp(65,43): warning C4477: "sscanf_s": в строке форматирования "%d" требуется аргумент типа "int *", но вариативный аргумент "1" имеет тип "unsigned __int64 *"
+         D:\study\3course\OS\FifthLab\OS05_02\OS05_02\OS05_02.cpp(68,124): warning C4244: аргумент: преобразование "unsigned __int64" в "int", возможна потеря данных
+
+    Предупреждений: 6
+    Ошибок: 0
+
+Прошло времени 00:00:03.92

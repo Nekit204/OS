@@ -20,6 +20,24 @@ int main()
         DWORD_PTR pa = NULL, sa = NULL;
         DWORD icpu = -1;
         if (!GetProcessAffinityMask(hp, &pa, &sa)) throw "GetProcessAffinityMask";
+        string bin{};
+        int val = pa;
+        int count = 0;
+        while (val > 0)
+        {
+            if (val % 2 == 0)
+            {
+                bin.insert(bin.begin(), '0');
+            }
+            else
+            {
+                bin.insert(bin.begin(), '1');
+                count++;
+            }
+            val >>= 1;
+        }
+        cout <<"Count of process for processor:"<< count << endl;
+        cout << "Proccess Afinity Mask in 2 base: " << showbase << bin << endl;
         cout << "Process affinity Mask: " << showbase << hex << pa << "\n";
         cout << "System affinity Mask: " << showbase << hex << sa << "\n";
        icpu = SetThreadIdealProcessor(ht, MAXIMUM_PROCESSORS);
