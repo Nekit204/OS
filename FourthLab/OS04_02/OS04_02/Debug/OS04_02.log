@@ -1,9 +1,6 @@
-﻿Сборка начата 02.10.2021 19:43:22.
+﻿Сборка начата 18.11.2021 18:06:40.
 Уровень детализации журнала: Normal.     1>Проект "D:\study\3course\OS\FourthLab\OS04_02\OS04_02\OS04_02.vcxproj" в узле 2 (целевые объекты Build).
-     1>PrepareForBuild:
-         Создание каталога "D:\study\3course\OS\FourthLab\OS04_02\Debug\".
-         Создание каталога "Debug\OS04_02.tlog\".
-       InitializeBuildStatus:
+     1>InitializeBuildStatus:
          Создание "Debug\OS04_02.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
        ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /Gd /TP /analyze- /FC /errorReport:prompt OS04_02.cpp
@@ -20,4 +17,4 @@
     Предупреждений: 0
     Ошибок: 0
 
-Прошло времени 00:00:03.15
+Прошло времени 00:00:01.43

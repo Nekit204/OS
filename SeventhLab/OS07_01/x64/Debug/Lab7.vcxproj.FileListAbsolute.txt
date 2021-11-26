@@ -1,0 +1,4 @@
+D:\study\Test\OSASP\7\OS07_01\x64\Debug\OS07_01.exe
+D:\study\Test\OSASP\7\OS07_01\x64\Debug\OS07_01.pdb
+D:\study\3course\OS\SeventhLab\OS07_01\x64\Debug\OS07_01.exe
+D:\study\3course\OS\SeventhLab\OS07_01\x64\Debug\OS07_01.pdb

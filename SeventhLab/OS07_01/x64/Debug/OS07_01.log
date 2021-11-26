@@ -1,0 +1,24 @@
+﻿Сборка начата 22.11.2021 21:52:13.
+Уровень детализации журнала: Normal.     1>Проект "D:\study\3course\OS\SeventhLab\OS07_01\OS07_01.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "x64\Debug\OS07_01.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       _MASM:
+         Assembling asm.asm...
+         cmd.exe /C "C:\Users\User\AppData\Local\Temp\tmp3ace5b8e18254e3fbe8de17966f87448.cmd"
+         ml64.exe /c /nologo /Zi /Fo"x64\Debug\asm.obj" /W3 /errorReport:prompt  /Taasm.asm
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29333\bin\HostX86\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\study\3course\OS\SeventhLab\OS07_01\x64\Debug\OS07_01.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"D:\study\3course\OS\SeventhLab\OS07_01\x64\Debug\OS07_01.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\study\3course\OS\SeventhLab\OS07_01\x64\Debug\OS07_01.lib" /MACHINE:X64 x64\Debug\main.obj
+         x64\Debug\asm.obj
+         OS07_01.vcxproj -> D:\study\3course\OS\SeventhLab\OS07_01\x64\Debug\OS07_01.exe
+       FinalizeBuildStatus:
+         Файл "x64\Debug\OS07_01.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\OS07_01.tlog\OS07_01.lastbuildstate".
+     1>Сборка проекта "D:\study\3course\OS\SeventhLab\OS07_01\OS07_01.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:01.53

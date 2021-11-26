@@ -1,0 +1,2 @@
+D:\study\3course\OS\SeventhLab\OS07_01\x64\Debug\OS07_01.exe
+D:\study\3course\OS\SeventhLab\OS07_01\x64\Debug\OS07_01.pdb

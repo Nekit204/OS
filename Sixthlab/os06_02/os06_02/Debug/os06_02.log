@@ -1,0 +1,20 @@
+﻿Сборка начата 09.11.2021 11:38:30.
+Уровень детализации журнала: Normal.     1>Проект "D:\study\3course\OS\Sixthlab\os06_02\os06_02\os06_02.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "Debug\os06_02.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+       Link:
+         Для всех выходных данных обновления не требуется.
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"D:\study\3course\OS\Sixthlab\os06_02\Debug\os06_02.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"D:\study\3course\OS\Sixthlab\os06_02\Debug\os06_02.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /IMPLIB:"D:\study\3course\OS\Sixthlab\os06_02\Debug\os06_02.lib" /MACHINE:X86 Debug\os06_02.obj
+         os06_02.vcxproj -> D:\study\3course\OS\Sixthlab\os06_02\Debug\os06_02.exe
+       FinalizeBuildStatus:
+         Файл "Debug\os06_02.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\os06_02.tlog\os06_02.lastbuildstate".
+     1>Сборка проекта "D:\study\3course\OS\Sixthlab\os06_02\os06_02\os06_02.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:02.44
